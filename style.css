@@ -31,6 +31,7 @@ footer {
     display: flex;
     flex-direction: row !important;
     justify-content: space-between !important;
+    margin-top: .3em;
 }
 
 div a {
@@ -38,6 +39,6 @@ div a {
 }
 
 main {
-    height: 70vh !important;
+    height: 84vh !important;
     padding-top: 3em;
 }
