@@ -26,3 +26,18 @@ menu {
 menu .nav-item {
     padding: 0 0.3em;
 }
+
+footer {
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+}
+
+div a {
+    margin-right: .5em !important;
+}
+
+main {
+    height: 70vh !important;
+    padding-top: 3em;
+}
