@@ -42,3 +42,8 @@ main {
     height: 84vh !important;
     padding-top: 3em;
 }
+
+#players {
+    height: 40px;
+    padding: .4em;
+}
