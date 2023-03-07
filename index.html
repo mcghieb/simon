@@ -2,11 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-
-    <!-- Telling browsers not to scale viewport automatically. -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Simon</title>
     <link rel="icon" href="favicon.ico" />
+    
+    <script src="login.js"></script>
     <link rel="stylesheet" href="style.css" />
 
     <link
@@ -17,7 +17,6 @@
     />
   </head>
   <body class="bg-dark text-light">
-    
     <header class="container-fluid">      <!-- Navigation Menu -->
       <nav class="navbar fixed-top navbar-dark">
         <a class="navbar-brand" href="#">Simon<sup>&reg;</sup></a>
@@ -36,7 +35,7 @@
       <form method="get" action="play.html">
         <label for="name"></label>
         <input type="text" id="name" placeholder="Your Name Here" />
-        <button type="submit" class="btn btn-success">Login</button>
+        <button onclick="login()" class="btn btn-success">Login</button>
       </form>
     </main>
 
